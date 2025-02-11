@@ -41,7 +41,6 @@ int main()
         std::string str;
         while (!textFile.eof())
         {
-            str = "";
             std::getline(textFile, str);
             text += (" " + str);
         }

@@ -26,8 +26,8 @@ int counterWords (std::string text, std::string word)
 int main()
 {
     std::ifstream textFile;
-    std::string text = "";
-    std::string word = "";
+    std::string text;
+    std::string word;
 
     textFile.open("C:\\Text_files\\text.txt");
 
@@ -38,7 +38,7 @@ int main()
     else
     {
         std::cout << "File opened." << std::endl;
-        std::string str = "";
+        std::string str;
         while (!textFile.eof())
         {
             str = "";

@@ -42,7 +42,7 @@ int main()
         while (!textFile.eof())
         {
             std::getline(textFile, str);
-            text += (" " + str);
+            text += (str + " ");
         }
 
         std::cout << "Please enter the word you want to find: ";
